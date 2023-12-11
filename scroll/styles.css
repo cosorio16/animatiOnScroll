@@ -1,0 +1,23 @@
+.container {
+    width: 300px;
+    margin: 0 auto;
+    padding: 40px;
+}
+
+.elemento {
+    opacity: 0;
+    transition: opacity 0.5s, transform 0.4s;
+    margin: 10px 0;
+    font-size: 3rem;
+    text-align: center;
+    border: 1px solid black;
+    padding: 80px;
+}
+
+.derecha {
+    transform: translateX(100%);
+}
+
+.izquierda {
+    transform: translateX(-100%);
+}
